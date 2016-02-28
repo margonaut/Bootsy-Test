@@ -3,7 +3,7 @@
 
     <%= form_for @project do |f| %>
       <%= f.label :Description %>
-		<%= f.bootsy_area :description,rows: 8, class: 'form-control', placeholder: "Enter Project Description", editor_options: {alert_unsaved: false}%>
+		<%= f.bootsy_area :content,rows: 8, class: 'form-control', placeholder: "Enter Project Description", editor_options: {alert_unsaved: false}%>
     <% end %>
   </div>
 </div>
